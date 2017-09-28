@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <title>The Coding Dojo contact page</title>
+       <link rel="stylesheet" type="text/css" href="contact.css">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+       <script src="contact.js"></script>
+    </head>
+    <body>
+      <div>
+          <form action="">
+              <p>First Name: <input class="tf" type="text" name="firstname"></p>
+              <p>Last Name: <input class="tf" type="text" name="lastname"></p>
+              <p>Description: <br><textarea class="tf" name="description" placeholder="Enter description:" cols="30" rows="10"></textarea></p>
+              <input type="submit" value="Add User">
+          </form>
+      </div>
+      <div id="allcards">
+          <div class="card center hidden" data-taw="card left scroll">
+              <h2>Michael Choi</h2>
+              <p  data-description="Coding Dojo's fearless leader. Master of instruction.">Click for description</p>
+          </div>
+      </div>
+    </body>
+</html>

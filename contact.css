@@ -1,0 +1,30 @@
+div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.card{
+    display: block;
+    border: solid black 1px;
+    width: 220px;
+    height: 110px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.hidden{
+    overflow: hidden;
+}
